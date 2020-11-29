@@ -1,0 +1,130 @@
+/*
+head bar
+*/
+
+.top{
+  background-color: #b19cd9;
+  text-align: center;
+}
+
+.top li:hover{
+  cursor: grabbing;
+  text-decoration: underline;
+}
+
+.top li{
+  font-family:serif;
+  font-weight:bolder;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+.top a {
+  color: white;
+  text-decoration: none;
+}
+
+#home{
+  color: #FAFAD2;
+}
+
+/*
+profiles
+*/
+
+.profile {
+  display:inline-flex;
+  text-align: center;
+  padding: 70px;
+  padding-right:90px;
+}
+
+.profile_content{
+  padding-top: 90px;
+}
+
+.profile img{
+  width: 500;
+  height: 550px;
+  margin-right: 70px;
+  padding: 2px;
+  background-color: black;
+}
+
+#name{
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+#bio{
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+#resume a{
+  text-decoration: none;
+  font-size: 35px;
+  padding: 10px;
+  background-color: #DCDCDC;
+}
+
+#resume{
+  padding-right: 60px;
+}
+
+hr {
+  margin: 20px;
+  margin-bottom: 40px;
+  padding-top: 5px;
+  background-color: #E6E6FA;
+}
+/*
+projects
+*/
+#project_title{
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.covid, .gwc{
+  display: inline-flex;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 100px;
+}
+
+.projects img{
+  height: 300px;
+  width: 250px;
+  border-radius: 30px;
+  padding-right: 10px;
+}
+
+#covid_img{
+  height: 350px;
+}
+
+.projects h3{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 80px;
+}
+
+.projects h2,h1{
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 80px;
+}
+
+.projects h1{
+  font-size: 30px;
+}
+
+.projects a{
+  color: #6495ED;
+}

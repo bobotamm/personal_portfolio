@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="contact.css"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="top">
+      <ul>
+        <li > <a id="home" href="home.html"> Home</a> </li>
+        <li> <a id="about"href="about.html"> About Me </a> </li>
+        <li> <a id="contact" href="contact.html"> Contact </a> </li>
+      </ul>
+    </div>
+
+    <div class="my_info">
+      <h1> <i class="fa fa-address-book"> </i> Contact Information: </h1>
+      <h3> Name: Wingshan Tam  </h3>
+      <h3>  Email: wingshantam2023@u.northwestern.edu </h3>
+      <h3>  Phone: 312-752-6493 </h3>
+      <div class="my_social_media">
+        <a href="https://www.linkedin.com/in/wingshan-tam/"  target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://www.facebook.com/bobo.tam.509/" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/bobo_fernandes/?hl=en" target="_blank" class="fa fa-instagram"></a>
+      </div>
+    </div>
+
+
+    <div class="forms">
+      <h1> Let's get in touch! </h1>
+
+      <form action="destination" method="get">
+
+        <h3>
+          <label for="yourname"> Name: </label>
+          <input type="text" id="yourname" />
+        </h3>
+
+        <h3>
+          <label for="youremail">Email: </label>
+          <input type="text" id="youremail" />
+        </h3>
+
+        <p>
+          <h3> Gender: </h3>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label><br>
+          <input type="radio" id="noans" name="gender" value="noans">
+          <label for="noans">Prefer not the answer</label>
+        </p>
+
+        <h3>Social Media: </h3>
+        <input type="checkbox"  name="social_media" value="Facebook" id="facebook" /><label for="facebook"> Facebook </label>
+        <input type="checkbox"  name="social_media" value="Instagram" id="instagram" /> <label for="instagram"> Instagram </label>
+        <input type="checkbox"  name="social_media" value="Snapchat" id="snapchat" /> <label for="snapchat"> Snapchat </label>
+        <input type="checkbox"  name="social_media" value="Twitter" id="twitter" /> <label for="twitter"> Twitter </label>
+        <input type="checkbox"  name="social_media" value="Wechat" id="wechat" /> <label for="wechat"> Wechat </label>
+
+        <h3> Send me a message! </h3>
+        <textarea id="msg" name="user_message"></textarea>
+
+        <div class="buttons">
+          <button class="submit" type="submit">
+            <a href="response.html"> Submit </a>
+          </button>
+          <button class="reset" type="reset"> Reset </button>
+        </div>
+       </form>
+
+     </div>
+
+
+  </body>
+</html>
